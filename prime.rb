@@ -2,8 +2,7 @@
 def prime?(num)
   if num <= 1
     false
-  end
-  if num == 2 || num == 3
+  elsif num == 2 || num == 3
     true
   else
     num_array = (2..(num - 1)).to_a
