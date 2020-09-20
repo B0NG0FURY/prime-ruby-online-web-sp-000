@@ -2,7 +2,7 @@
 def prime?(num)
   if num == 2 || num == 3
     true
-  elsif num > 3
+  else
     num_array = (2..num - 1).to_a
     num_array.each do |int|
       if 
