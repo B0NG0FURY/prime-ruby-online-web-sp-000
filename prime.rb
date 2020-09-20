@@ -7,9 +7,9 @@ def prime?(num)
     num_array.each do |int|
       if 
         num % int == 0
-        true
+        false
       end
     end
   end
-  false
+  true
 end
