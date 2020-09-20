@@ -1,8 +1,8 @@
 # Add  code here!
 def prime?(num)
-  if num > 1 && num < 4
+  if num == 2 || num == 3
     true
-  elsif num >= 4
+  elsif num > 3
     num_array = (2..num - 1).to_a
     num_array.each do |int|
       if 
